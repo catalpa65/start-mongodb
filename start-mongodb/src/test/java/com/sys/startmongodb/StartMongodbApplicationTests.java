@@ -28,11 +28,11 @@ public class StartMongodbApplicationTests {
     @Test
     public void add() {
         User user = new User();
-        user.set_id(3);
+        user.setId(7);
         user.setName("yangjingsong");
         user.setSex("男");
         mongoTemplate.insert(user);
-        user.set_id(4);
+        user.setId(7);
         user.setName("songjingyang");
         user.setSex("男");
         mongoTemplate.insert(user);
@@ -56,7 +56,7 @@ public class StartMongodbApplicationTests {
     @Test
     public void delete() {
         User user = new User();
-        user.set_id(2);
+        user.setId(2);
         mongoTemplate.remove(user);
     }
 

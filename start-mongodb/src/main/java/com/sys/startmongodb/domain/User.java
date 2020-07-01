@@ -1,25 +1,25 @@
 package com.sys.startmongodb.domain;
 
 public class User {
-    private int _id;
+    private int id;
     private String name;
     private String sex;
 
     @Override
     public String toString() {
         return "User{" +
-                "_id=" + _id +
+                "id=" + id +
                 ", name='" + name + '\'' +
                 ", sex='" + sex + '\'' +
                 '}';
     }
 
-    public int get_id() {
-        return _id;
+    public int getId() {
+        return id;
     }
 
-    public void set_id(int _id) {
-        this._id = _id;
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getName() {

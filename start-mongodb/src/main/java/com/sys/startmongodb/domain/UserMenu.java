@@ -2,8 +2,8 @@ package com.sys.startmongodb.domain;
 
 import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document(collection = "hello_user")
-public class User {
+@Document(collection = "UserMenu")
+public class UserMenu {
     private int id;
     private String name;
     private String sex;
